@@ -4,8 +4,8 @@ require File.expand_path('../lib/rubynation/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Benjamin Smith"]
   gem.email         = ["benjamin.lee.smith@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = "The Official RubyNation Gem!"
+  gem.summary       = "The Official RubyNation Gem! Print the schedule, find the drinkups, enter to win a iPod Nano!"
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
