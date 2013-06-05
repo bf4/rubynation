@@ -6,12 +6,12 @@ Gem::Specification.new do |gem|
   gem.email         = ["benjamin.lee.smith@gmail.com"]
   gem.description   = "The Official RubyNation Gem!"
   gem.summary       = "The Official RubyNation Gem! Print the schedule, find the drinkups, enter to win a iPod Nano!"
-  gem.homepage      = ""
+  gem.homepage      = "http://www.rubynation.org/"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "rubynation"
   gem.require_paths = ["lib"]
-  gem.version       = Rubynation::VERSION
+  gem.version       = "0.0.1"
 end
