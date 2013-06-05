@@ -1,6 +1,4 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/rubynation/version', __FILE__)
-
 Gem::Specification.new do |gem|
   gem.authors       = ["Benjamin Smith"]
   gem.email         = ["benjamin.lee.smith@gmail.com"]

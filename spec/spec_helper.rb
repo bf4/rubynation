@@ -1,2 +1,2 @@
 require "rspec"
-require File.join(File.dirname(__FILE__), "../lib/ruby_nation.rb")
+require File.join(File.dirname(__FILE__), "../lib/rubynation.rb")
