@@ -1,12 +1,6 @@
 module RubyNation
   class Schedule
     SCHEDULE_DATA = {
-        Date.new(2013, 4, 3) => {
-            columns: 2,
-            events: [
-                RubyNation::EventsTable::TimeSlot.new("7:00-9:00", "Registration and Socializing")
-            ]
-        },
         Date.new(2013, 6, 13) => {
             columns: 2,
             events: [
