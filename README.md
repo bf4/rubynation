@@ -1,29 +1,41 @@
-# Rubynation
-
-TODO: Write a gem description
+# The Official 2013 RubyNation Gem!
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'rubynation'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Run:
 
     $ gem install rubynation
 
+or add this line to your application's Gemfile:
+
+    gem 'rubynation'
+
+and then execute:
+
+    $ bundle
+
 ## Usage
 
-TODO: Write usage instructions here
+    > require 'rubynation'
 
-## Contributing
+    > RubyNation::Schedule.print
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+    Thursday, June 13, 2013
+    +-------------+--------------------------------------------------------------------------+
+    | 09:00-05:30 |                     Rails Girls DC Training Session                      |
+    +-------------+--------------------------------------------------------------------------+
+    | 06:00-08:30 | RailsGirls DC/RubyNation Twisted Willow Party Sponsored by AT&T and SAIC |
+    +-------------+--------------------------------------------------------------------------+
+    ...
+
+    > RubyNation::Drinkups.print
+
+    Thursday, June 13, 2013
+    +-------------+--------------------------------------------------------------------------+
+    | 06:00-08:30 | RailsGirls DC/RubyNation Twisted Willow Party Sponsored by AT&T and SAIC |
+    +-------------+--------------------------------------------------------------------------+
+    ...
+
+    > RubyNation::DrawingEntry.create!("foo@example.com")
+
+    => "You currently have a 100% chance to win an iPod Nano!"
