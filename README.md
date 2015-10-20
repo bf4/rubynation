@@ -1,51 +1,29 @@
-Forward...
+# Rubynation
 
-# Hacking RubyGems
-
-
-- http://blog.honeybadger.io/stop-using-rubygemsorg-in-production/
-- https://speakerdeck.com/benjaminleesmith/hacking-with-gems-rubynation-2013
-
-Continued...
-
-# The Official 2013 RubyNation Gem!
+TODO: Write a gem description
 
 ## Installation
 
-Run:
-
-    $ gem install rubynation
-
-or add this line to your application's Gemfile:
+Add this line to your application's Gemfile:
 
     gem 'rubynation'
 
-and then execute:
+And then execute:
 
     $ bundle
 
+Or install it yourself as:
+
+    $ gem install rubynation
+
 ## Usage
 
-    > require 'rubynation'
+TODO: Write usage instructions here
 
-    > RubyNation::Schedule.print
+## Contributing
 
-    Thursday, June 13, 2013
-    +-------------+--------------------------------------------------------------------------+
-    | 09:00-05:30 |                     Rails Girls DC Training Session                      |
-    +-------------+--------------------------------------------------------------------------+
-    | 06:00-08:30 | RailsGirls DC/RubyNation Twisted Willow Party Sponsored by AT&T and SAIC |
-    +-------------+--------------------------------------------------------------------------+
-    ...
-
-    > RubyNation::Drinkups.print
-
-    Thursday, June 13, 2013
-    +-------------+--------------------------------------------------------------------------+
-    | 06:00-08:30 | RailsGirls DC/RubyNation Twisted Willow Party Sponsored by AT&T and SAIC |
-    +-------------+--------------------------------------------------------------------------+
-    ...
-
-    > RubyNation::DrawingEntry.create!("foo@example.com")
-
-    => "You currently have a 100% chance to win an iPod Nano!"
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Added some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request

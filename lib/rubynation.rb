@@ -1,12 +1,5 @@
-module RubyNation
-end
+require "rubynation/version"
 
-require "date"
-require "net/http"
-require "json"
-require "rubynation/events_table/timeslot"
-require "terminal-table"
-require "rubynation/events_table/printer"
-require "rubynation/schedule"
-require "rubynation/drinkups"
-require "rubynation/drawing_entry"
+module Rubynation
+  # Your code goes here...
+end
