@@ -1,3 +1,13 @@
+Forward...
+
+# Hacking RubyGems
+
+
+- http://blog.honeybadger.io/stop-using-rubygemsorg-in-production/
+- https://speakerdeck.com/benjaminleesmith/hacking-with-gems-rubynation-2013
+
+Continued...
+
 # The Official 2013 RubyNation Gem!
 
 ## Installation
